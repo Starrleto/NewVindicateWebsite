@@ -1,46 +1,55 @@
-body{
-  background-color: #313336;
-}
 
 .bg {
+  background-color: #303032;
   text-align: center;
-  background-color: #313336;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+  max-height: 20vh;
 }
 
 .red-text{
-  color: red !important;
-  font-weight: 700 !important;
-  border: rgb(194, 194, 194) solid 2px !important;
+  color: rgb(205, 28, 28) !important;
+  font-size: calc(8px + 3vmin) !important;
+  font-family: caveat;
 }
 
 .red-text:hover{
   color: rgb(182, 10, 10) !important;
-  font-weight: 700 !important;
+  font-weight: 800 !important;
 }
 
 .offset-left{
   margin-left: 10px;
 }
 
+.center-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title{
+  margin: 15px;
+  font-size: calc(20px + 15vmin);
+  color: red;
+  font-family: caveat;
+}
+
+.title-pages {
+  color: white;
+  font-family: mynerve;
+  font-weight: 600;
+  font-size: calc(10px + 10vmin);
+  margin: 15px;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: float infinite 1s ease-in-out alternate;
   }
-}
-
-.App-header {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
 @keyframes float {
@@ -50,4 +59,14 @@ body{
   to {
     transform: translate(0px, 20px);
   }
+}
+
+@font-face {
+  font-family: caveat;
+  src: url('./Assets/CaveatBrush-Regular.ttf');
+}
+
+@font-face {
+  font-family: mynerve;
+  src: url('./Assets/Mynerve-Regular.ttf');
 }
