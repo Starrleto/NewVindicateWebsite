@@ -12,16 +12,18 @@ function App() {
   return (
     <div className="bg">
       <BrowserRouter>
+      <div className='header-bg'>
         <img src={logo} className="App-logo" alt="logo" />
         <h1 className='title'>Vindicate</h1>
         <div>
           <NasvbarComponent></NasvbarComponent>
         </div>
+      </div>
       
       <Routes>
           <Route path='/' element={<HomeComponent></HomeComponent>}></Route>
           <Route path='/about' element={<AboutComponent></AboutComponent>}></Route>
-          <Route path='/characters' element={<CharacterComponent></CharacterComponent>}></Route>
+          <Route path='/concepts' element={<CharacterComponent></CharacterComponent>}></Route>
           <Route path='/updates' element={<UpdatesComponent></UpdatesComponent>}></Route>
           <Route path='/downloads'></Route> {/*<-For Later*/}
       </Routes>

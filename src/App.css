@@ -46,6 +46,21 @@
   margin: 15px;
 }
 
+.header-bg{
+  background-color: #212121;
+}
+
+.home-bg{
+  padding: 20px;
+  background-color: #2a2a2c;
+}
+
+p{
+  color: white;
+  /* font-family: mynerve; */
+  font-size: large;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: float infinite 1s ease-in-out alternate;
