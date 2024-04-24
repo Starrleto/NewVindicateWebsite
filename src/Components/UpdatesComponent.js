@@ -4,8 +4,7 @@ import "../App.css";
 const UpdatesComponent = () => {
   return (
     <div>
-      <h1 className='title-pages'>Updates</h1>
-      <p>Follow the development process!</p>
+      <div className='home-bg'> <h1 className='title-pages'>Development Updates!</h1> </div>
 
       <div className='body-padding'>
 
@@ -17,7 +16,7 @@ const UpdatesComponent = () => {
 <hr></hr>
         <div>
           <h1 className='date'>3/4/2024</h1>
-          <p className='text-left'>Multiple save slots have been added! Currently there are three.</p>
+          <p className='text-left'>Multiple save slots have been added! Currently there are three different slots.</p>
           <p className='text-left'>It saves money, inventory, and player position. I will add progression and stat saving later.</p>
         </div>
 <hr></hr>

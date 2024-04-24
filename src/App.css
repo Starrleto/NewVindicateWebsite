@@ -75,6 +75,7 @@ p{
   /* font-family: mynerve; */
   font-size: large;
   line-height: 20px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif
 }
 
 @media (prefers-reduced-motion: no-preference) {

@@ -3,7 +3,9 @@ import "../App.css";
 
 const AboutComponent = () => {
   return (
-    <div className='bg'>AboutComponent</div>
+    <div>
+        <div className='home-bg'> <h1 className='title-pages'>About the Game</h1> </div>
+    </div>
   )
 }
 
