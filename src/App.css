@@ -113,6 +113,12 @@ p{
   padding-top: 15px;
 }
 
+.footer{
+  padding: 20px;
+  background-color: #2a2a2d;
+  color:white;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: float infinite 1s ease-in-out alternate;

@@ -7,6 +7,8 @@ const AboutComponent = () => {
     <div>
         <div className='home-bg'> <h1 className='title-pages'>More About the Game</h1> </div>
 
+        <h1>The Story...</h1>
+
         <div>
         <h1 className='date'>Development Plans</h1>
         <p className='text-left'>There is currently no sprite or UI art for the game, as my current focus (as of April 2024) is to complete all functonality. Therefore it will be the last to be completed- although concept art exists.</p>

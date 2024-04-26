@@ -7,6 +7,7 @@ import NasvbarComponent from './Components/NasvbarComponent';
 import HomeComponent from './Components/HomeComponent';
 import CharacterComponent from './Components/CharacterComponent';
 import UpdatesComponent from './Components/UpdatesComponent';
+import FooterComponent from './Components/FooterComponent';
 
 function App() {
   return (
@@ -29,6 +30,8 @@ function App() {
       </Routes>
         
       </BrowserRouter>
+
+      <FooterComponent></FooterComponent>
     </div>
   );
 }
