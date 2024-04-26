@@ -55,6 +55,15 @@
   background-color: #2a2a2d;
 }
 
+.home-hr{
+  border: black 3px dashed !important;
+}
+
+.home-header{
+  padding: 40px;
+  background-color:black;
+}
+
 .date{
   text-align: left;
   color: rgb(159, 43, 43);
@@ -75,7 +84,25 @@ p{
   /* font-family: mynerve; */
   font-size: large;
   line-height: 20px;
-  font-family:Verdana, Geneva, Tahoma, sans-serif
+  font-family: rowdies;
+}
+
+.image{
+  width: 80%;
+}
+
+.image-header{
+  height: 200px;
+  width: 100%;
+  object-fit:contain;
+}
+
+.padding{
+  padding: 40px;
+}
+
+.separate-top{
+  padding-top: 15px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -101,4 +128,9 @@ p{
 @font-face {
   font-family: mynerve;
   src: url('./Assets/Mynerve-Regular.ttf');
+}
+
+@font-face {
+  font-family: rowdies;
+  src: url('./Assets/Rowdies-Light.ttf');
 }

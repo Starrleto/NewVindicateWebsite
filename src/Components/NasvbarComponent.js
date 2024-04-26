@@ -5,7 +5,7 @@ import "../App.css";
 
 const NasvbarComponent = () => {
   return (
-    <div className='App'>
+    <div>
      <Nav variant="tabs" defaultActiveKey="link-1" className='center-body'>
         <Nav.Item>
           <Nav.Link eventKey="link-1" as={Link} to='/' className='red-text'>Home</Nav.Link>

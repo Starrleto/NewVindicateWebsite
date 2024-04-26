@@ -7,7 +7,6 @@ const UpdatesComponent = () => {
       <div className='home-bg'> <h1 className='title-pages'>Development Updates!</h1> </div>
 
       <div className='body-padding'>
-
         <div>
           <h1 className='date'>2/18-19/2024</h1>
           <p className='text-left'>I tested out my cutscene system here. The intro and beginning cutscenes now exist, though they might change. I sketched out a CG to test that out too, it functions well!</p>
@@ -31,10 +30,5 @@ const UpdatesComponent = () => {
   )
 }
 
-{/* 
-
-<p className='text-left'></p>
-
-*/}
 
 export default UpdatesComponent
