@@ -46,6 +46,14 @@
   margin: 15px;
 }
 
+.title-smaller{
+  color: white;
+  font-family: mynerve;
+  font-weight: 600;
+  font-size: calc(10px + 6vmin);
+  margin: 15px;
+}
+
 .header-bg{
   background-color: #212121;
 }
@@ -56,7 +64,7 @@
 }
 
 .home-hr{
-  border: black 3px dashed !important;
+  border: rgb(0, 0, 0) 3px dashed;
 }
 
 .home-header{
