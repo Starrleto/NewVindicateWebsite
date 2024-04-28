@@ -69,18 +69,14 @@
 
 .home-header{
   padding: 40px;
-  background-color:black;
+  background-color:#0b0b0b;
 }
 
 .date{
   text-align: left;
-  color: rgb(159, 43, 43);
+  color: rgb(187, 49, 49);
   font-size: calc(10px + 8vmin);
   font-family: caveat;
-}
-
-.body-padding{
-  padding: 20px;
 }
 
 .text-left{
@@ -117,6 +113,13 @@ p{
   padding: 20px;
   background-color: #2a2a2d;
   color:white;
+}
+
+.columns{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
 }
 
 @media (prefers-reduced-motion: no-preference) {
