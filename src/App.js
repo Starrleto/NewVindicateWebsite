@@ -1,4 +1,4 @@
-import logo from './Assets/Images/moff.png';
+
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter, Route, Routes } from "react-router-dom";
@@ -14,7 +14,6 @@ function App() {
     <div className="bg">
       <BrowserRouter>
       <div className='header-bg'>
-        <img src={logo} className="App-logo" alt="logo" />
         <h1 className='title'>Vindicate</h1>
         <div>
           <NasvbarComponent></NasvbarComponent>

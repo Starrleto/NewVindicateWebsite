@@ -3,7 +3,7 @@ import "../App.css";
 
 const UpdatesComponent = () => {
   return (
-    <div>
+    <div className='border-thing'>
       <div className='home-bg'> <h1 className='title-pages'>Development Updates!</h1> </div>
 
       <div className='padding'>

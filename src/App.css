@@ -17,8 +17,13 @@
 }
 
 .red-text:hover{
-  color: rgb(182, 10, 10) !important;
+  color: #f31b1b !important;
   font-weight: 800 !important;
+  border: none !important;
+}
+
+.red-text:active{
+  border: none !important;
 }
 
 .offset-left{
@@ -72,6 +77,10 @@
   background-color:#0b0b0b;
 }
 
+.border-thing{
+  border-top: black 6px dashed;
+}
+
 .date{
   text-align: left;
   color: rgb(187, 49, 49);
@@ -120,6 +129,19 @@ p{
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+}
+
+.nav-link.active{
+  background-color: #0b0b0b !important;
+  border-color: #0b0b0b !important;
+}
+
+.nav-tabs{
+  border-color: #0b0b0b !important;
+}
+
+.border-white{
+  border-color: white;
 }
 
 @media (prefers-reduced-motion: no-preference) {
