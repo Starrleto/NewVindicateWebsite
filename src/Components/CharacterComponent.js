@@ -20,7 +20,7 @@ const CharacterComponent = () => {
       <NasvbarComponent></NasvbarComponent>
 
       <div className='home-bg'> <h1 className='title-pages'>Characters and Concept Art!</h1> </div>
-      <hr className='home-hr'></hr>
+      <hr></hr>
       <Container fluid>
       <Row>
         <Col lg={6} sm={12}> 
@@ -42,15 +42,15 @@ const CharacterComponent = () => {
 
           <img alt="Murasaki" src={atsu} className='img-fluid image'></img> 
           <p>Atsuko Aiuchi, The game's protagonist!</p> 
-
-          <img alt="Murasaki" src={kai} className='img-fluid image'></img> 
-          <p>Kaiyo Jona, one of the humans.</p> 
-
-          <img alt="Tomo" src={tomo2} className='img-fluid image'></img> 
-          <p>Tomo, a tanuki, and a shopkeeper in the Spirit World.</p> 
         </Col>
         <Col lg={6} sm={12}>  
           <img alt="Tomo" src={tomo} className='img-fluid image'></img> 
+
+          <img alt="Tomo" src={tomo2} className='img-fluid image'></img> 
+          <p>Tomo, a tanuki, and a shopkeeper in the Spirit World.</p> 
+
+          <img alt="Murasaki" src={kai} className='img-fluid image'></img> 
+          <p>Kaiyo Jona, one of the humans.</p> 
         </Col>
       </Row>
 

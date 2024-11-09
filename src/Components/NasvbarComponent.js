@@ -1,8 +1,14 @@
 import React from 'react'
 import Nav from 'react-bootstrap/Nav';
 import { Link } from "react-router-dom";
+import { useEffect } from 'react';
 
 const NasvbarComponent = () => {
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+
   return (
     <div className='navbar-header'>
         <Nav variant="tabs" defaultActiveKey="link-1" className='center-body'>
@@ -19,6 +25,7 @@ const NasvbarComponent = () => {
           <Nav.Link eventKey="link-4" as={Link} to='/updates' className='red-text offset-left'>Updates</Nav.Link>
         </Nav.Item>
       </Nav>
+      <hr className='border-white'></hr>
     </div>
   )
 }

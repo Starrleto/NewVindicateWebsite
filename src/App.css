@@ -68,7 +68,8 @@
 }
 
 .home-bg{
-  padding: 40px;
+  padding-bottom: 40px;
+  padding-top: 20px;
   background-color: #0b0b0b;
 }
 
@@ -92,8 +93,9 @@
 
 .date{
   text-align: left;
-  color: rgb(187, 49, 49);
+  color: rgb(207, 38, 38);
   font-size: calc(10px + 8vmin);
+  -webkit-text-stroke: 1px black;
   font-family: caveat;
 }
 
@@ -125,6 +127,10 @@ p{
 
 .separate-top{
   padding-top: 15px;
+}
+
+.separate-side{
+  padding-left: 15px;
 }
 
 .footer{
