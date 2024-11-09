@@ -1,9 +1,11 @@
 import React from 'react'
 import "../App.css";
+import NasvbarComponent from './NasvbarComponent';
 
 const UpdatesComponent = () => {
   return (
-    <div className='border-thing'>
+    <div>
+      <NasvbarComponent></NasvbarComponent>
       <div className='home-bg'> <h1 className='title-pages'>Development Updates!</h1> </div>
 
       <div className='padding'>

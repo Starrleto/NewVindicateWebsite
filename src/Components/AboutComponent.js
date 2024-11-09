@@ -1,13 +1,17 @@
 import React from 'react'
 import "../App.css";
+import NasvbarComponent from './NasvbarComponent';
 
 const AboutComponent = () => {
   return (
-    <div className='border-thing'>
+    <div>
+        <NasvbarComponent></NasvbarComponent>
+
         <div className='home-bg'> <h1 className='title-pages'>More About the Game</h1> </div>
 
         <h1>The Story...</h1>
-        <p>A young woman named Atsuko Aiuchi encounters a strange, foxlike creature on her way home from work.</p>
+        <p>A strange, foxlike creature enters the dream of a young woman named Atsuko Aiuchi. She awakens in a strange world along with nine others. </p>
+        <p>The ten humans must explore the strange spirit world, fighting to survive amongst the angry spirits and yokai. </p>
 
         <div className='padding'>
           <h1 className='date'>Development Plans</h1>

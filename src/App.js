@@ -3,22 +3,17 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import AboutComponent from './Components/AboutComponent';
-import NasvbarComponent from './Components/NasvbarComponent';
+import HeaderComponent from './Components/HeaderComponent';
 import HomeComponent from './Components/HomeComponent';
 import CharacterComponent from './Components/CharacterComponent';
 import UpdatesComponent from './Components/UpdatesComponent';
 import FooterComponent from './Components/FooterComponent';
+import NasvbarComponent from './Components/NasvbarComponent';
 
 function App() {
   return (
     <div className="bg">
       <BrowserRouter>
-      <div className='header-bg'>
-        <h1 className='title'>Vindicate</h1>
-        <div>
-          <NasvbarComponent></NasvbarComponent>
-        </div>
-      </div>
       
       <Routes>
           <Route path='/' element={<HomeComponent></HomeComponent>}></Route>
