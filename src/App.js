@@ -3,12 +3,10 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import AboutComponent from './Components/AboutComponent';
-import HeaderComponent from './Components/HeaderComponent';
 import HomeComponent from './Components/HomeComponent';
 import CharacterComponent from './Components/CharacterComponent';
 import UpdatesComponent from './Components/UpdatesComponent';
 import FooterComponent from './Components/FooterComponent';
-import NasvbarComponent from './Components/NasvbarComponent';
 
 function App() {
   return (

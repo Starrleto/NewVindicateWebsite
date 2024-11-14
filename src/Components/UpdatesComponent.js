@@ -7,7 +7,7 @@ const UpdatesComponent = () => {
   return (
     <div>
       <NasvbarComponent></NasvbarComponent>
-      <div className='home-bg'> <h1 className='title-pages'>Development Updates!</h1> </div>
+      <div className='home-bg'> <h1 className='title-pages slideDown'>Development Updates!</h1> </div>
 
       <div className='padding'>
 

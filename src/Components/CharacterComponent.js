@@ -5,9 +5,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import mur from '../Assets/Images/image3.png';
-import shi from '../Assets/Images/image0.png';
 import ak from '../Assets/Images/image1.jpeg';
-import wow from '../Assets/Images/IMG_3133.PNG';
 import atsu from '../Assets/Images/IMG_3159.PNG';
 import osa from '../Assets/Images/image4.jpeg';
 import kai from '../Assets/Images/image5.jpeg';
@@ -19,7 +17,7 @@ const CharacterComponent = () => {
     <div>
       <NasvbarComponent></NasvbarComponent>
 
-      <div className='home-bg'> <h1 className='title-pages'>Characters and Concept Art!</h1> </div>
+      <div className='home-bg'> <h1 className='title-pages slideDown'>Characters and Concept Art!</h1> </div>
       <hr></hr>
       <Container fluid>
       <Row>
