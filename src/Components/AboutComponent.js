@@ -28,8 +28,9 @@ const AboutComponent = () => {
 
         <div className='padding'>
           <h1 className='date'>More About the Game</h1>
-          <p className='text-left'>Vindicate is being developed steadily, and the goal is to at least have a functional demo by Fall 2025. Updates will continuously be announced up until then and updated on this website.</p>
-          <p className='text-left'>I'm also working on writing for the game. The general idea and framework of the story is there fortunately.</p>
+          <p className='text-left'>Vindicate will feature visual novel as well as JRPG elements, with turn-based combat and small puzzles being a primary part of the gameplay. This is a 2D game with heavy emphasis on art, characters, and storytelling.</p>
+          <p className='text-left'>The game will feature both point-and-click and walkable locations for varied gameplay.</p>
+          <p className='text-left'>Upon release, Vindicate will be continuously released by chapter until its end. The first chapter will serve as a demo and be free to play!</p>
         </div>
 
         <img alt="Game Screenshot" src={background} className='large-image'></img> 
@@ -37,7 +38,8 @@ const AboutComponent = () => {
         <div className='padding'>
           <h1 className='date'>Development Plans</h1>
           <p className='text-left'>Vindicate is being developed steadily, and the goal is to at least have a functional demo by Fall 2025. Updates will continuously be announced up until then and updated on this website.</p>
-          <p className='text-left'>I'm also working on writing for the game. The general idea and framework of the story is there fortunately.</p>
+          <p className='text-left'>Lots of the base programming is completed.</p>
+          <p className='text-left'>Art and script writing is currently in the process of being completed.</p>
         </div>
 
           <img alt="Game Screenshot" src={background2} className='large-image'></img> 
@@ -53,9 +55,9 @@ const AboutComponent = () => {
               <p>Although the game is in very early stages, please explore the content there currently is to offer and learn about our project!</p>
             </Col>
             <Col lg={6} sm={12} className='columns'>  
-              <h1 className='title-smaller'>A bit about development...</h1>
-              <p>This game is being developed with Unity and is written in C#. Almost all of this game (including the website!) is created by me!</p>
-              <p>Some friends of mine assist me with the writing and testing of the game. </p>
+              <h1 className='title-smaller'>More About Development</h1>
+              <p>This game is being developed with Unity and is written in C#. Almost all of this game is created by one person.</p>
+              <p>Some friends of mine assist me with the writing and testing of the game.</p>
               <p></p>
             </Col>
           </Row>
