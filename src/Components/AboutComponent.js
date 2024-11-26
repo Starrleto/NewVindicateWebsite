@@ -29,7 +29,7 @@ const AboutComponent = () => {
         <div className='padding'>
           <h1 className='date'>More About the Game</h1>
           <p className='text-left'>Vindicate will feature visual novel as well as JRPG elements, with turn-based combat and small puzzles being a primary part of the gameplay. This is a 2D game with heavy emphasis on art, characters, and storytelling.</p>
-          <p className='text-left'>The game will feature both point-and-click and walkable locations for varied gameplay.</p>
+          <p className='text-left'>The game will feature both point-and-click and walkable locations for varied exploration of the world.</p>
           <p className='text-left'>Upon release, Vindicate will be continuously released by chapter until its end. The first chapter will serve as a demo and be free to play!</p>
         </div>
 
@@ -37,9 +37,29 @@ const AboutComponent = () => {
         
         <div className='padding'>
           <h1 className='date'>Development Plans</h1>
-          <p className='text-left'>Vindicate is being developed steadily, and the goal is to at least have a functional demo by Fall 2025. Updates will continuously be announced up until then and updated on this website.</p>
-          <p className='text-left'>Lots of the base programming is completed.</p>
-          <p className='text-left'>Art and script writing is currently in the process of being completed.</p>
+          <p className='text-left'>Vindicate is being developed steadily, and the goal is to at least have a functional demo by Fall of 2025. Updates will continuously be announced up until then and updated on this website.</p>
+
+          <div className='side-by-side'>
+            <div>
+            <h1 className='title-smaller'>What is Already Completed?</h1>
+            <ul className='text-left'>
+              <li>Base programming for dialogue and cutscenes</li>
+              <li>Base programming for inventory and combat</li>
+              <li>Game Map setup</li>
+              <li>Save system</li>
+            </ul>
+            </div>
+
+            <div>
+            <h1 className='title-smaller'>What is To Be Completed?</h1>
+         <ul className='text-left'>
+            <li>Sprites and other artwork</li>
+            <li>Music</li>
+            <li>Script writing</li>
+         </ul>
+            </div>
+
+          </div>
         </div>
 
           <img alt="Game Screenshot" src={background2} className='large-image'></img> 

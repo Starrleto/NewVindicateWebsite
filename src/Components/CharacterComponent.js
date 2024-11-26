@@ -23,12 +23,12 @@ const CharacterComponent = () => {
       <Row>
         <Col lg={6} sm={12}> 
           <img alt="Murasaki" src={mur} className='img-fluid image'></img> 
-          <p>The Spirit World's Train Conductor.</p> 
+          <p className='separate-top'>The Spirit World's Train Conductor.</p> 
         </Col>
 
         <Col lg={6} sm={12}> 
           <img alt="Murasaki" src={osa} className='img-fluid image'></img> 
-          <p>Hikaru Osamu, one of the humans.</p> 
+          <p className='separate-top'>Hikaru Osamu, one of the humans.</p> 
         </Col>
 
       </Row>
@@ -36,19 +36,19 @@ const CharacterComponent = () => {
       <Row>
         <Col lg={6} sm={12}> 
           <img alt="Murasaki" src={ak} className='img-fluid image'></img> 
-          <p>The Fox.</p> 
+          <p className='separate-top'>The Fox.</p> 
 
           <img alt="Murasaki" src={atsu} className='img-fluid image'></img> 
-          <p>Atsuko Aiuchi, The game's protagonist!</p> 
+          <p className='separate-top'>Atsuko Aiuchi, The game's protagonist!</p> 
         </Col>
         <Col lg={6} sm={12}>  
           <img alt="Tomo" src={tomo} className='img-fluid image'></img> 
 
           <img alt="Tomo" src={tomo2} className='img-fluid image'></img> 
-          <p>Tomo, a tanuki, and a shopkeeper in the Spirit World.</p> 
+          <p className='separate-top'>Tomo, a tanuki, and a shopkeeper in the Spirit World.</p> 
 
           <img alt="Murasaki" src={kai} className='img-fluid image'></img> 
-          <p>Kaiyo Jona, one of the humans.</p> 
+          <p className='separate-top'>Kaiyo Jona, one of the humans.</p> 
         </Col>
       </Row>
 

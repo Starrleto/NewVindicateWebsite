@@ -60,7 +60,16 @@
   font-family: mynerve;
   font-weight: 600;
   font-size: calc(10px + 10vmin);
-  margin: 15px;
+  margin-top: 15px;
+}
+
+.title-smaller {
+  color: white;
+  font-family: mynerve;
+  font-weight: 600;
+  text-align: left;
+  font-size: calc(5px + 3vmin);
+  margin-top: 15px;
 }
 
 .title-smaller{
@@ -127,7 +136,7 @@
   object-fit: cover;
 }
 
-p{
+p, ul{
   color: white;
   /* font-family: mynerve; */
   font-size: large;
@@ -178,6 +187,12 @@ p{
   align-items: center;
 }
 
+.side-by-side{
+  display: flex;
+  justify-content: space-around;
+  align-items: top;
+}
+
 .nav-link.active{
   background-color: #0b0b0b !important;
   border-color: #0b0b0b !important;
@@ -185,6 +200,12 @@ p{
 
 .nav-tabs{
   border-color: #0b0b0b !important;
+}
+
+.separation{
+  border: rgb(0, 0, 0) 1px solid;
+  opacity: 100;
+  margin-top: 50px;
 }
 
 .border-white{
