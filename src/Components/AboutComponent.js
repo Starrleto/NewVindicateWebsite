@@ -38,7 +38,7 @@ const AboutComponent = () => {
         <div className='padding'>
           <h1 className='date'>Development Plans</h1>
           <p className='text-left'>Vindicate is being developed steadily, and the goal is to at least have a functional demo by Fall of 2025. Updates will continuously be announced up until then and updated on this website.</p>
-
+          <hr></hr>
           <div className='side-by-side'>
             <div>
             <h1 className='title-smaller'>What is Already Completed?</h1>
