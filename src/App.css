@@ -63,7 +63,7 @@
   color: white;
   font-family: mynerve;
   font-weight: 600;
-  font-size: calc(10px + 10vmin);
+  font-size: calc(50px + 3vmin);
   margin-top: 15px;
 }
 
@@ -72,16 +72,8 @@
   font-family: mynerve;
   font-weight: 600;
   text-align: left;
-  font-size: calc(5px + 3vmin);
+  font-size: calc(15px + 3vmin);
   margin-top: 15px;
-}
-
-.title-smaller{
-  color: white;
-  font-family: mynerve;
-  font-weight: 600;
-  font-size: calc(10px + 6vmin);
-  margin: 15px;
 }
 
 .header-bg{

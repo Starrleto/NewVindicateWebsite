@@ -39,9 +39,9 @@ const AboutComponent = () => {
           <h1 className='date'>Development Plans</h1>
           <p className='text-left'>Vindicate is being developed steadily, and the goal is to at least have a functional demo by Fall of 2025. Updates will continuously be announced up until then and updated on this website.</p>
           <hr></hr>
-          <div className='side-by-side'>
+          <Row className='side-by-side'>
             
-            <div>
+            <Col lg={6} sm={12}>
             <h1 className='title-smaller'>What is Already Completed?</h1>
             <ul className='text-left'>
               <li>Base programming for dialogue and cutscenes</li>
@@ -49,9 +49,9 @@ const AboutComponent = () => {
               <li>Game Map setup</li>
               <li>Save system</li>
             </ul>
-            </div>
+            </Col>
             
-            <div>
+            <Col lg={6} sm={12}>
             <h1 className='title-smaller'>What is To Be Completed?</h1>
          <ul className='text-left'>
             <li>Sprites and other artwork</li>
@@ -59,9 +59,9 @@ const AboutComponent = () => {
             <li>Script writing</li>
             <li>Implementing Gameplay features</li>
          </ul>
-            </div>
+            </Col>
 
-          </div>
+          </Row>
         </div>
 
           <img alt="Game Screenshot" src={background2} className='large-image'></img> 
