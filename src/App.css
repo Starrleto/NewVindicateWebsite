@@ -1,8 +1,12 @@
 
 
 .bg {
-  background-color: #242323;
+  background-color: #656565;
+  background-image: url("./Assets/Images/backgrounds3.png");
+  background-position: center;
+  background-attachment: fixed;
   text-align: center;
+  background-blend-mode:multiply;
 }
 
 .App-logo {

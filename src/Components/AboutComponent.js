@@ -40,6 +40,7 @@ const AboutComponent = () => {
           <p className='text-left'>Vindicate is being developed steadily, and the goal is to at least have a functional demo by Fall of 2025. Updates will continuously be announced up until then and updated on this website.</p>
           <hr></hr>
           <div className='side-by-side'>
+            
             <div>
             <h1 className='title-smaller'>What is Already Completed?</h1>
             <ul className='text-left'>
@@ -49,13 +50,14 @@ const AboutComponent = () => {
               <li>Save system</li>
             </ul>
             </div>
-
+            
             <div>
             <h1 className='title-smaller'>What is To Be Completed?</h1>
          <ul className='text-left'>
             <li>Sprites and other artwork</li>
             <li>Music</li>
             <li>Script writing</li>
+            <li>Implementing Gameplay features</li>
          </ul>
             </div>
 
@@ -69,16 +71,14 @@ const AboutComponent = () => {
 
     <Row id='home'>
             <Col lg={6} sm={12} className='columns'> 
-            <h1 className='title-smaller'>A bit about the project...</h1>
-              <p>Vindicate is an RPG game with many visual novel elements. This game's major focus its characters and storytelling, but also features turn-based combat and small puzzles to solve.</p>
-              <p>Vindicate offers many locations to explore both through point-and-click rooms and larger, walkable locations.</p>
-              <p>Although the game is in very early stages, please explore the content there currently is to offer and learn about our project!</p>
+            <h1 className='title-smaller'>More About The Project</h1>
+              <p>...</p>
+              <p>...</p>
             </Col>
             <Col lg={6} sm={12} className='columns'>  
               <h1 className='title-smaller'>More About Development</h1>
-              <p>This game is being developed with Unity and is written in C#. Almost all of this game is created by one person.</p>
-              <p>Some friends of mine assist me with the writing and testing of the game.</p>
-              <p></p>
+              <p>This game is being developed with Unity and is written in C#. ...</p>
+              <p>...</p>
             </Col>
           </Row>
 
