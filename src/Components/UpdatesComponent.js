@@ -3,6 +3,7 @@ import "../App.css";
 import NasvbarComponent from './NasvbarComponent';
 import UpdateComponent from './UpdateComponent';
 import titleScreen from '../Assets/Images/titleScreen.png';
+import devSc from '../Assets/Images/devscreenshot.png'
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
@@ -28,8 +29,11 @@ const UpdatesComponent = () => {
 
 <UpdateComponent date="11/28/2024" text="Grouping lots of work into a log for today, progress has been made on the art, such as environment, sprites, and UI for the game. Script writing is also being worked on." text2="I plan to complete a lot of the script writing so I can set up the cutscenes in the game."></UpdateComponent>
 <Row>
-  <Col lg={6} sm={12}>
+  <Col lg={6} sm={12} className='center-body'>
     <img alt="Murasaki" src={titleScreen} className='img-fluid'></img> 
+  </Col>
+  <Col lg={6} sm={12} className='center-body'>
+    <img alt="Murasaki" src={devSc} className='img-fluid'></img> 
   </Col>
 </Row>
 
