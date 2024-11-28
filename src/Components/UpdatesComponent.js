@@ -2,6 +2,9 @@ import React from 'react'
 import "../App.css";
 import NasvbarComponent from './NasvbarComponent';
 import UpdateComponent from './UpdateComponent';
+import titleScreen from '../Assets/Images/titleScreen.png';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
 const UpdatesComponent = () => {
   return (
@@ -19,9 +22,21 @@ const UpdatesComponent = () => {
 
 <hr className='separation'></hr>
 
-<UpdateComponent date="4/24-25/2024" text="For these days I worked on the battle system. I've set up several classes and the basic UI for the battles."></UpdateComponent>
+<UpdateComponent date="4/24-25/2024" text="For these days I worked on the battle system. I've set up several classes and the basic UI for the battles. Basic functionality has been programmed, and will continue to be built upon."></UpdateComponent>
 
 <hr className='separation'></hr>
+
+<UpdateComponent date="11/28/2024" text="Grouping lots of work into a log for today, progress has been made on the art, such as environment, sprites, and UI for the game. Script writing is also being worked on." text2="I plan to complete a lot of the script writing so I can set up the cutscenes in the game."></UpdateComponent>
+<Row>
+  <Col lg={6} sm={12}>
+    <img alt="Murasaki" src={titleScreen} className='img-fluid'></img> 
+  </Col>
+</Row>
+
+<hr className='separation'></hr>
+
+
+<h1 className='title-smaller-center underline'>More Updates Coming Soon!</h1>
 
 </div>
 </div>

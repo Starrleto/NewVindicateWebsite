@@ -38,7 +38,7 @@ const AboutComponent = () => {
         <div className='padding'>
           <h1 className='date'>Development Plans</h1>
           <p className='text-left'>Vindicate is being developed steadily, and the goal is to at least have a functional demo by Fall of 2025. Updates will continuously be announced up until then and updated on this website.</p>
-          <hr></hr>
+          <hr className='separation'></hr>
           <Row className='side-by-side'>
             
             <Col lg={6} sm={12}>
@@ -70,15 +70,15 @@ const AboutComponent = () => {
     <Container className='padding'>
 
     <Row id='home'>
-            <Col lg={6} sm={12} className='columns'> 
-            <h1 className='title-smaller'>More About The Project</h1>
-              <p>...</p>
-              <p>...</p>
-            </Col>
             <Col lg={6} sm={12} className='columns'>  
               <h1 className='title-smaller'>More About Development</h1>
-              <p>This game is being developed with Unity and is written in C#. ...</p>
-              <p>...</p>
+              <p>This game is being developed with Unity and is written in C#.</p>
+              <p>Although most development is handled by one person, I thank my friends and other developers for their assistance and advice, as well as our musician! This would not be possible without them!</p>
+            </Col>
+            <Col lg={6} sm={12} className='columns'> 
+            <h1 className='title-smaller'>More About The Project</h1>
+              <p>Although starting as an idea long before 2024, this game has been in true development for about one year. Its release is hopefully planned for late 2025-2026.</p>
+              <p>To showcase more of our development, devlogs will soon be created for our current progress and uploaded to social media. They will also be posted here once uploaded.</p>
             </Col>
           </Row>
 

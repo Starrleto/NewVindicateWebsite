@@ -78,6 +78,19 @@
   margin-top: 15px;
 }
 
+.title-smaller-center {
+  color: white;
+  font-family: mynerve;
+  font-weight: 600;
+  font-size: calc(15px + 3vmin);
+  margin-top: 15px;
+}
+
+.underline{
+  text-decoration: underline;
+}
+
+
 .header-bg{
   background-color: #212121;
 }
@@ -137,8 +150,8 @@
 p, ul{
   color: white;
   /* font-family: mynerve; */
-  font-size: large;
-  line-height: 20px;
+  font-size: calc(12px + 1vmin);
+  line-height: calc(18px + 1vmin);
   font-family: rowdies;
 }
 
@@ -181,7 +194,7 @@ p, ul{
 .columns{
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 }
 
